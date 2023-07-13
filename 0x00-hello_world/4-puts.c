@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
-* main- this is the main function
-* Results: 0 (success)
-*/
+ *  * main - main block
+ *     * main: this is the main function
+ *     * Results: 0 (success)
+ */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
