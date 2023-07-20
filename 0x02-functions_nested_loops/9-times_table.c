@@ -13,9 +13,7 @@ void times_table(void)
 		for (j = 0; j <= 9; j++)
 		{
 			prod = i * j;
-			printf("%d", prod);
-			_putchar(',');
-			_putchar(' ');
+			printf("%d, ", prod);
 		}
 		_putchar('\n');
 	}
