@@ -12,8 +12,8 @@ void times_table(void)
 		for (j = 0; j <= 9; j++)
 		{
 			prod = i * j;
-			if (prod <= 9)
-				_putchar(' ');
+			if (prod < 9)
+				printf(" ");
 			else
 			printf("%2d, ", prod);
 		}
