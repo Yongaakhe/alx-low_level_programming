@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strcat: Concatenates the string pointed to by @src
+ * _strcat - Concatenates the string pointed to by @src
  * @dest: destination string
  * @src: - source string
  * Return: dest;
