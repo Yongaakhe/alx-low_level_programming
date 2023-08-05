@@ -6,8 +6,6 @@
  * main -  adds positive numbers
  * @argc: argument count
  * @argv: argument vector
- * @i: first number to be added
- * @k: second number to be added
  * Return: 0
  */
 int main(int argc, char *argv[])
