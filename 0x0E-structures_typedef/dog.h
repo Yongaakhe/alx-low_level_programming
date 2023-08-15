@@ -1,8 +1,7 @@
 #ifndef DOG_H
 #define DOG_H
 /**
- * struct dog: Initializes a variable of type struct dog
- * Descr - Initializes a variable of type struct dog
+ * struct dog: A new type describing a dog
  * @name: name of the dog
  * @owner: name of the person owning the dog
  * @age: age of the dog
@@ -15,4 +14,7 @@ struct dog
 	float age;
 
 };
+
+void init_dog(struct dog *d, char *name, float age, char *owner);
 #endif
+
