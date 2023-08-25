@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 /**
- * add_node - adds a new node at tne end of the linked list
+ * add_node - adds a new node at the end of the linked list
  *
  * @head: double pointer to list_t list
  * @str: new string to add in the node
@@ -19,7 +19,7 @@ list_t *add_node(list_t **head, const char *str)
 
 	new = malloc(sizeof(list_t));
 	if (!new)
-		return(NULL);
+		return (NULL);
 
 	new->str = strdup(str);
 	new->len = len;
